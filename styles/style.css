@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /* fonts */
+    --font1: 'Kumbh Sans', sans-serif;
+    /* colors */
+    --mainbg: hsl(185, 75%, 39%);
+    --headings: hsl(229, 23%, 23%);
+    --paragraph: hsl(227, 10%, 46%);
+    --line: hsl(0, 0%, 76%);
+    --cardbg: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/bg-pattern-top.svg) no-repeat left -220vw top -100vh, url(../images/bg-pattern-bottom.svg) no-repeat right -220vw bottom -100vh, var(--mainbg);
+    font-family: var(--font1);
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+}
+
+.profile__card {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 100px auto;
+    background-color: var(--cardbg);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__avatar {
+    margin-top: -75px;
+    border: 5px solid var(--cardbg);
+    overflow: hidden;
+    border-radius: 50%;
+    line-height: 0;
+}
+
+.card__info {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.info__title {
+    font-size: 1.3rem;
+    color: var(--headings);
+}
+
+.info__number {
+    color: var(--paragraph);
+}
+
+.card__paragraph {
+    font-size: 1rem;
+    color: var(--paragraph);
+}
+
+.card__stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: stretch;
+    padding: 20px;
+    border-top: 1px solid var(--line);
+}
+
+.stats__data {
+    text-align: center;
+}
+
+.data__number {
+    color: var(--headings);
+    font-size: 1.3rem;
+}
+
+.data__paragraph {
+    color: var(--paragraph);
+    font-size: .8rem;
+}
+
+/* footer */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:768px) {
+    body {
+        background: url(../images/bg-pattern-top.svg) no-repeat left -80vw top -90vh, url(../images/bg-pattern-bottom.svg) no-repeat right -80vw bottom -90vh, var(--mainbg);
+    }
+}
+
+@media (min-width:1024px) {
+    body {
+        background: url(../images/bg-pattern-top.svg) no-repeat left -50vw top -90vh, url(../images/bg-pattern-bottom.svg) no-repeat right -50vw bottom -90vh, var(--mainbg);
+    }
+}
