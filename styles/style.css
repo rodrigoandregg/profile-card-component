@@ -91,7 +91,8 @@ body {
 
 .data__paragraph {
     color: var(--paragraph);
-    font-size: .7rem;
+    font-size: .6rem;
+    letter-spacing: 1px;
 }
 
 /* footer */
