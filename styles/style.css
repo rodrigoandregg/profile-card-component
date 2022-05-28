@@ -18,7 +18,7 @@
 }
 
 body {
-    background: url(../images/bg-pattern-top.svg) no-repeat right 50vw bottom 50vh, url(../images/bg-pattern-bottom.svg) no-repeat left 50vw top 50vh, var(--mainbg);
+    background: url(../images/bg-pattern-top.svg) no-repeat right 50vw bottom 30vh, url(../images/bg-pattern-bottom.svg) no-repeat left 50vw top 30vh, var(--mainbg);
     font-family: var(--font1);
     font-size: 18px;
 }
@@ -105,27 +105,3 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-/* @media (min-width:425px) {
-    body {
-        background: url(../images/bg-pattern-top.svg) no-repeat left -150vw top -90vh, url(../images/bg-pattern-bottom.svg) no-repeat right -150vw bottom -90vh, var(--mainbg);
-    }
-}
-
-@media (min-width:500px) {
-    body {
-        background: url(../images/bg-pattern-top.svg) no-repeat left -130vw top -90vh, url(../images/bg-pattern-bottom.svg) no-repeat right -130vw bottom -90vh, var(--mainbg);
-    }
-}
-
-@media (min-width:768px) {
-    body {
-        background: url(../images/bg-pattern-top.svg) no-repeat left -80vw top -90vh, url(../images/bg-pattern-bottom.svg) no-repeat right -80vw bottom -90vh, var(--mainbg);
-    }
-}
-
-@media (min-width:1024px) {
-    body {
-        background: url(../images/bg-pattern-top.svg) no-repeat left -50vw top -90vh, url(../images/bg-pattern-bottom.svg) no-repeat right -50vw bottom -90vh, var(--mainbg);
-    }
-} */
