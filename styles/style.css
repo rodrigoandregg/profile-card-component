@@ -106,6 +106,12 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
+@media (min-width:425px) {
+    body {
+        background: url(../images/bg-pattern-top.svg) no-repeat left -150vw top -90vh, url(../images/bg-pattern-bottom.svg) no-repeat right -150vw bottom -90vh, var(--mainbg);
+    }
+}
+
 @media (min-width:768px) {
     body {
         background: url(../images/bg-pattern-top.svg) no-repeat left -80vw top -90vh, url(../images/bg-pattern-bottom.svg) no-repeat right -80vw bottom -90vh, var(--mainbg);
